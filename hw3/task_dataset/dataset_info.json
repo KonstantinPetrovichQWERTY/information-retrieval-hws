@@ -1,0 +1,75 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "coco-karpathy",
+  "dataset_size": 58835563,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/yerevann/coco-karpathy@448fdb1bc7b2d09e46881c4541a14d796a3d41e8/data/train-00000-of-00001.parquet": {
+      "num_bytes": 17048402,
+      "checksum": null
+    },
+    "hf://datasets/yerevann/coco-karpathy@448fdb1bc7b2d09e46881c4541a14d796a3d41e8/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 1074059,
+      "checksum": null
+    },
+    "hf://datasets/yerevann/coco-karpathy@448fdb1bc7b2d09e46881c4541a14d796a3d41e8/data/test-00000-of-00001.parquet": {
+      "num_bytes": 1073650,
+      "checksum": null
+    },
+    "hf://datasets/yerevann/coco-karpathy@448fdb1bc7b2d09e46881c4541a14d796a3d41e8/data/restval-00000-of-00001.parquet": {
+      "num_bytes": 6315212,
+      "checksum": null
+    }
+  },
+  "download_size": 25511323,
+  "features": {
+    "url": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentences": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 84346886,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 39701399,
+      "num_examples": 82783,
+      "dataset_name": "coco-karpathy"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2345220,
+      "num_examples": 5000,
+      "dataset_name": "coco-karpathy"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 2349722,
+      "num_examples": 5000,
+      "dataset_name": "coco-karpathy"
+    },
+    "restval": {
+      "name": "restval",
+      "num_bytes": 14439222,
+      "num_examples": 30504,
+      "dataset_name": "coco-karpathy"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
